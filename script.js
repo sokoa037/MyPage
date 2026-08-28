@@ -9,11 +9,17 @@ function myfunction(){
 
    let poeng = 0;
    
-   const hello = document.getElementById("tekst");
-   const button = document.getElementById("knapp");
-   const knapp3 = document.getElementById("reset");
-
-  function leggTil (){
+  function myfunction (){
     poeng = poeng + 1;
-    document
+    document.getElementById("tekst").textContent = "POENG" + poeng;
+  }
+  function stopSpill (){
+    poeng = poeng + 1;
+    document.getElementById("tekst").textContent = "Game over -_- Poeng:" + poeng;
+
+  }
+
+  function nullstill(){
+    poeng = 0;
+    document.getElementById("tekst").textContent = "POENG 0";
   }
