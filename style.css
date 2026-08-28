@@ -1,0 +1,37 @@
+body {
+    background-color:darkcyan
+}
+#dark{
+    height: 100px;
+    width: 100px;
+    background-color:crimson;
+    color:chocolate
+}
+#dark:hover{
+    background-color:black
+}
+.dark-mode{
+    background-color:aqua;
+    color:blue;
+}
+#knapp3{
+    height: 100px;
+    width: 100px;
+    background-color:deepskyblue;
+    color:grey;
+}
+
+#knapp3:hover{
+    background-color:black;
+}
+
+#knapp4{
+    height: 100px;
+    width: 100px;
+    background-color:deeppink;
+    color:darkmagenta;
+}
+
+#knapp4:hover{
+   background-color:black;
+}
